@@ -1,9 +1,10 @@
 <template>
     <div class="wrapper">
-    <header class="header">Select a Bike</header>
+    <header class="header">Available Bikes</header>
     <section class="content">
         <div class="columns">
         <main class="main" >
+            <b>{name}</b>
             <c-list onproductselected={handleProductSelected}></c-list>
         </main>
         <aside class="sidebar-second">

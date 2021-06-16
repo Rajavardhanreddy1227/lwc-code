@@ -1,6 +1,10 @@
 body {
   margin: 0;
 } 
+.price {
+  color: green;
+  font-weight: bold;
+}
 .wrapper{
   min-height: 100vh;
   background: #ccc;
